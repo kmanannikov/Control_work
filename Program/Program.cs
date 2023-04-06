@@ -6,8 +6,8 @@ string[] arrayStrings = new string[size];
 for (int i = 0; i < size; i++)
 {
     Console.WriteLine($"Введите значение элемента {i+1}: ");
-    string element = Convert.ToString(Console.ReadLine());
-    arrayStrings[i] = element;
+    string elements = Convert.ToString(Console.ReadLine());
+    arrayStrings[i] = elements;
 }
 
 string[] arrayFinal = new string[size];
